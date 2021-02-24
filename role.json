@@ -1,0 +1,35 @@
+{
+	"Name": "NCache SaaS Permissions",
+	"Description":"Minimum set of permissions required by a deployment user on the NCache SaaS portal.",
+	"Actions":[
+		"Microsoft.Authorization/roleAssignments/read",
+		"Microsoft.Compute/virtualMachines/read",
+		"Microsoft.Compute/virtualMachines/write",
+		"Microsoft.Compute/virtualMachines/delete",
+		"Microsoft.Compute/virtualMachines/start/action",
+		"Microsoft.Compute/virtualMachines/restart/action",
+		"Microsoft.Compute/virtualMachines/deallocate/action",
+		"Microsoft.Compute/virtualMachines/instanceView/read",
+		"Microsoft.Compute/disks/delete",
+		"Microsoft.Network/networkInterfaces/read",
+		"Microsoft.Network/networkInterfaces/write",
+		"Microsoft.Network/networkInterfaces/delete",
+		"Microsoft.Network/networkInterfaces/join/action",
+		"Microsoft.Network/networkSecurityGroups/write",
+		"Microsoft.Network/networkSecurityGroups/delete",
+		"Microsoft.Network/networkSecurityGroups/join/action",
+		"Microsoft.Network/publicIpAddresses/read",
+		"Microsoft.Network/publicIpAddresses/delete",
+		"Microsoft.Network/publicIpAddresses/write",
+		"Microsoft.Network/publicIPAddresses/join/action",
+		"Microsoft.Network/virtualNetworks/read",
+		"Microsoft.Network/virtualNetworks/subnets/read",
+		"Microsoft.Network/virtualNetworks/subnets/join/action",
+		"Microsoft.Resources/subscriptions/read",
+		"Microsoft.Resources/subscriptions/locations/read",
+		"Microsoft.Resources/subscriptions/resourceGroups/read"
+	],
+	"AssignableScopes":[
+		"/subscriptions/02bbd82a-e5fd-46d3-8102-d6e8d40f49ba",
+	]
+}
